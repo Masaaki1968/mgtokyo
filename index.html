@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bot-ya.com - 人とAIをつなぐ - 開業カウントダウン</title>
+    <!-- セキュリティヘッダーの追加 -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'self'; object-src 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
+    <title>bot-ya.com - 人とAIをつなぐ - 令和7年7月7日開業カウントダウン</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -299,8 +304,8 @@
                 人と<span class="gradient-text">AI</span>をつなぐ
             </h1>
             <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
-                bot-ya.comは、最先端のAIチャットボット技術で、人々のコミュニケーションを革新します。
-                2025年7月7日、私たちの新しい道が始まります。
+                bot-ya.comは最先端のAIチャットボット技術で、人々のコミュニケーションを革新します。
+                令和7年7月7日（2025年7月7日）、私たちの新しい旅が始まります。
             </p>
         </div>
     </header>
@@ -329,7 +334,7 @@
         </div>
         
         <div class="typing-container">
-            <div class="typing-text" id="typing-text">bot-ya.com 2025年7月7日開業</div>
+            <div class="typing-text" id="typing-text">bot-ya.com 令和7年7月7日開業</div>
         </div>
         
         <div class="text-center">
@@ -360,7 +365,7 @@
                 </div>
                 <h3 class="text-xl font-semibold mb-3">業務自動化</h3>
                 <p class="text-gray-300">
-                    問い合わせ対応から営業支援まで、様々なビジネスプロセスを自動化。24時間365日、正確で効率的な対応を実現します。
+                    問い合わせ対応から営業支援まで、様々なビジネスプロセスを自動化。24時間365日、効率的で正確な対応を実現します。
                 </p>
             </div>
             
@@ -436,7 +441,7 @@
     <script>
         // カウントダウンタイマー
         function updateCountdown() {
-            const launchDate = new Date('July 1, 2025 00:00:00').getTime();
+            const launchDate = new Date('July 7, 2025 00:00:00').getTime();
             const now = new Date().getTime();
             const distance = launchDate - now;
             
@@ -491,7 +496,7 @@
         
         // タイピングエフェクト
         const typingTexts = [
-            "bot-ya.com 2025年7月1日開業",
+            "bot-ya.com 令和7年7月7日開業",
             "人とAIをつなぐ新時代",
             "最先端技術で未来を創る",
             "あなたのビジネスを加速する"
